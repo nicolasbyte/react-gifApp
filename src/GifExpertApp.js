@@ -4,9 +4,9 @@ import { GifGrid } from './components/GifGrid';
 
 
 
-const GifExpertApp = ( ) => {
+const GifExpertApp = ( { categoriesDefault = [] } ) => {
     
-        const [ categories , setCategories ] = useState(['One Punch']);
+        const [ categories , setCategories ] = useState( categoriesDefault );
 
 
         // const handlAdd = () => {

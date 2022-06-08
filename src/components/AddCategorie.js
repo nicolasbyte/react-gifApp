@@ -25,6 +25,7 @@ export const AddCategorie = ( { setCategories } ) => {
     return (
         
             <form onSubmit = { addSumbit } >
+                <p> { categorie } </p>
                 <input
                         type     = "text"
                         value    = { categorie }

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`este es el test de GifExpertApp este es el snapshot contra el GifExpertApp 1`] = `
+<Fragment>
+  <h1>
+    GifExpertApp
+  </h1>
+  <hr />
+  <AddCategorie
+    setCategories={[Function]}
+  />
+  <ol />
+</Fragment>
+`;
